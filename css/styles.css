@@ -19,7 +19,7 @@ h2 {
 
 h3 {
   color: #66bfbf;
-  margin-left: 0px;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.87rem;
 }
@@ -55,33 +55,50 @@ height: 100px;
 width: 100px;
 }
 
+.newskills-image{
+
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
 .education-image{
 
-position:absolute;
-left:206px;
-top:3100px;
-height: 60px;
-width: 60px;
+display: block;
+margin-left:auto;
+margin-right: auto;
+height: 200px;
+width: 200px;
+margin-top: 30px;
+margin-bottom: 20px;
 
 }
 
 .certification-image{
 
-  position: absolute;
-  left: 275px;
-  top: 3410px;
-  height: 60px;
-  width: 60px;
+display: block;
+margin-left:auto;
+margin-right: auto;
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
 }
 
 .professional-image{
 
-  position: absolute;
-  left: 467px;
-  top: 2240px;
-  height: 60px;
-  width: 60px;
-
+display: block;
+margin-left:auto;
+margin-right: auto;
+  height: 200px;
+  width: 200px;
+margin-top: 30px;
 }
 
 .top-container
