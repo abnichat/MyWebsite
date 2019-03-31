@@ -1,0 +1,162 @@
+body{
+
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66bfbf;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  color: #66bfbf;
+  margin-left: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.56rem;
+}
+
+h3 {
+  color: #66bfbf;
+  margin-left: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.87rem;
+}
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+  }
+
+.digital{
+
+  height: 400px;
+  width: 800px;
+}
+
+.top-cloud{
+
+position: absolute;
+right: 180px;
+top: 50px;
+height: 100px;
+width: 100px;
+}
+
+.bottom-cloud{
+position:absolute;
+left:180px;
+bottom: 400px;
+height: 100px;
+width: 100px;
+}
+
+.education-image{
+
+position:absolute;
+left:206px;
+top:3100px;
+height: 60px;
+width: 60px;
+
+}
+
+.certification-image{
+
+  position: absolute;
+  left: 275px;
+  top: 3410px;
+  height: 60px;
+  width: 60px;
+}
+
+.professional-image{
+
+  position: absolute;
+  left: 467px;
+  top: 2240px;
+  height: 60px;
+  width: 60px;
+
+}
+
+.top-container
+{
+background-color: #eaf6f6;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.container1
+{
+margin-top: 30px;
+text-align: center;
+background-color: white;
+}
+.container2
+{
+background-color: white;
+
+}
+.container3
+{
+background-color: #eaf6f6;
+margin:0;
+}
+.container4
+{
+
+background-color: white;
+
+}
+.container5
+{
+
+background-color: white;
+margin:0;
+}
+.container6
+{
+background-color: white;
+
+}
+.container7
+{
+background-color: #eaf6f6;
+font-size: 15px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+
+.table-header{
+  border: 1px solid black;
+  background-color: #eaf6f6;
+  padding: 10px;
+}
+
+.table-data{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table-setting{
+
+  border: 0px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  align: center;
+}
