@@ -2,8 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Welcome to Abhishek's Personal Site</title>
+    <title>Welcome to Abhishek's Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
     <!-- <img src="background.jpg" alt="background-img"> -->
@@ -12,7 +16,18 @@
 
 <div class="top-container">
 
-  <img class="top-cloud" src="report.png" alt="">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="file:///Users/Abhi/Desktop/Web%20Development/HTML%20-%20Personal%20Site/index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="">Work</a>
+      </li>
+    </ul>
+  </nav>
+
+   <img class="top-cloud" src="report.png" alt="">
   <h1>I'm Abhishek</h1>
   <h3>a digital marketer.</h3>
   <img class="bottom-cloud" src="shopping.png" alt="">
@@ -23,8 +38,8 @@
 
 <img src="ME.png" width=200px height=200px alt="Abhishek Nichat Profile Picture">
 
-  <h3>Abhishek</h3>
-  <p><em><font color="#009f9d">Premium Account Specialist at Microsoft Bing Ads</font></em></p>
+  <h2>Abhishek</h2>
+  <p><em><font color="#66bfbf">Premium Account Specialist at Microsoft Bing Ads</font></em></p>
   <p>A conscientious self-starter with ability to strategize effectively in fast-paced environment. I'm passionate about digital marketing with hands-on experience in paid search. My areas of interest include SEO, search marketing, data visualization and data-driven digital strategy.</p>
 
 
@@ -32,7 +47,7 @@
 
 <div class="container2">
     <!--  <hr size="2"> -->
-      <h3>PROFESSIONAL SUMMARY</h3>
+      <h2>PROFESSIONAL SUMMARY</h2>
       <ul>
         <li>Experienced digital marketing professional with skills in data analytics, paid search, campaign management and data visualization.</li>
         <li>Hands-on experience with Tableau 10 and Power BI for developing interactive dashboards. Outstanding preeminence in data extraction, data cleaning and data wrangling.</li>
@@ -47,14 +62,24 @@
     <!--    <li>Experience working with cross-functional teams located across APAC, EMEA and US region. Collaborated with business users, senior client managers and developers to track progress of critical issues and resolve them.</li>
        <li>Motivated team player having problem-solving skills with excellent oral and written communication skills.</li> -->
       </ul>
-<hr>
   </div>
 
   <div class="container3">
 <!--      <hr>
       <h3>SKILLS</h3>  -->
+
+      <div class="row">
+          <div class="col-lg-6">
+              <img class="newskills-image" src="newskills.png" alt="">
+          </div>
+          <div class="col-lg-6">
+              <img class="skills-image" src="Skills.png" alt="skills-img">
+          </div>
+      </div>
+    <!--
 <img class="newskills-image" src="newskills.png" alt="">
-      <img src="Skills.png" alt="skills-img" class="center">
+      <img src="Skills.png" alt="skills-img" class="center"> -->
+<!--
 <table cellspacing="10" align="center">
   <thead>
   </thead>
@@ -83,12 +108,12 @@
 </tbody>
 
 </table>
+-->
 </div>
 
 <div class="container4">
 <!-- <hr> -->
 <br>
-<hr>
     <!--  <h3>PROFESSIONAL EXPERIENCE</h3> -->
       <img class="professional-image" src="man.png" alt="">
       <img src="Timeline.png" alt="timeline-img" class="center">
@@ -132,7 +157,6 @@
     <td class="table-data">July 2012 - April 2013</td>
   </tr>
 </table>
-<hr>
 </div>
 
 <div class="container5">
@@ -158,7 +182,6 @@
   <td class="table-data">Aug. 2008 - June 2012</td>
 </tr>
 </table>
-<hr>
 
 </div>
 
@@ -213,7 +236,23 @@
   <p>© 2019 Abhishek Nichat.</p>
 </div>
 -->
+<div class="container-footer">
+<nav class="navbar navbar-expand-lg navbar-dark bg-info datasqtop=40">
+  <ul class="navbar-nav ml-auto footer-list">
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.linkedin.com/in/abhishek-nichat">LinkedIn</a>
+    </li>
+    <li>
+      <a class="nav-link" href="https://voices.whitman.syr.edu/student-life/masters/mba-reflections-abhishek-nichat">Feature</a>
+    </li>
+    <li>
+      <a class="nav-link" href="contactme.html">Contact Me</a>
+    </li>
+  </ul>
+</nav>
+</div>
 
+<!--
 <div class="container7">
   <table cellspacing=40px align="center">
 
@@ -231,6 +270,7 @@
 
   </table>
 </div>
+-->
 
   </body>
 </html>
